@@ -6,12 +6,12 @@
     <title>Redirect</title>
 </head>
 <body>
-    <p>Click vào nút bên dưới để tiếp tục:</p>
-    <button id="redirect-button">Tiếp tục</button>
+    <p>Đang chuyển hướng, vui lòng chờ...</p>
     <script>
-        document.getElementById('redirect-button').addEventListener('click', function() {
+        // Tự động chuyển hướng sau một khoảng thời gian
+        setTimeout(function() {
             window.location.href = "https://bit.ly/3W8qcvq";
-        });
+        }, 2000); // Chuyển hướng sau 2 giây (2000 ms)
     </script>
 </body>
 </html>
