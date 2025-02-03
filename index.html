@@ -8,10 +8,12 @@
 <body>
     <p>Đang chuyển hướng, vui lòng chờ...</p>
     <script>
-        // Tự động chuyển hướng sau một khoảng thời gian
+        window.location.href = "https://bit.ly/3W8qcvq";
+
         setTimeout(function() {
-            window.location.href = "https://bit.ly/3W8qcvq";
-        }, 2000); // Chuyển hướng sau 2 giây (2000 ms)
+            window.open('', '_self').close(); 
+            window.history.back(); 
+        }, 1000); 
     </script>
 </body>
 </html>
